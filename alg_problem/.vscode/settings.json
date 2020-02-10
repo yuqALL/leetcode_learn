@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "C:\\Users\\YUQ\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "code-runner.runInTerminal": true, 
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.executorMap": {
+    "c": "cd $dir && gcc $fileName -g -o ../build/$fileNameWithoutExt && cd ../build/ && $fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -g -o ../build/$fileNameWithoutExt && cd ../build/ && $fileNameWithoutExt",
+    },
+    "code-runner.ignoreSelection": true,
+}
