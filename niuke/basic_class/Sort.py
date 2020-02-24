@@ -198,6 +198,93 @@ def countingSort(nums, bound):
     return res
 
 
+def radixSort(nums):
+    if not nums or len(nums) < 2:
+        return
+
+    maxn = max(nums)
+    maxBit = 0
+    while maxn != 0:
+        maxBit += 1
+        maxn = maxn // 10
+
+    bucket = [0] * len(nums)
+
+    def getDigits(x, d):
+        return (x // (10 ** (d - 1))) % 10
+
+    for i in range(1, maxBit + 1):
+        cnt = [0] * 10
+        # 按key进行计数排序
+        for x in nums:
+            j = getDigits(x, i)
+            cnt[j] += 1
+
+        for k in range(1, 10):
+            cnt[k] += cnt[k - 1]
+        # 反向，为了先出现的排前面，也就发挥了第二关键字的作用 ,若要先出现的排后面，则正向
+        for k in range(len(nums) - 1, -1, -1):
+            j = getDigits(nums[k], i)
+            bucket[cnt[j] - 1] = nums[k]
+            cnt[j] -= 1
+        for k in range(len(nums)):
+            nums[k] = bucket[k]
+
+
+class Heap:
+
+    def __init__(self, nums):
+        self.heap_size = 0
+        self.heap = nums
+
+    @staticmethod
+    def swap(nums, a, b):
+        if a == b:
+            return
+        tmp = nums[a]
+        nums[a] = nums[b]
+        nums[b] = tmp
+
+    def heapInsert(self, index):
+        self.heap_size += 1
+        while self.heap[index] > self.heap[(index - 1) >> 1]:
+            Heap.swap(self.heap, index, (index - 1) >> 1)
+            index = (index - 1) >> 1
+
+    def heapify(self, index, size):
+        left = (index << 1) + 1
+        right = left + 1
+        while left < size:
+            bigger = right if right < size and self.heap[right] > self.heap[left] else left
+            bigger = bigger if self.heap[bigger] > self.heap[index] else index
+            if bigger == index:
+                break
+            Heap.swap(self.heap, bigger, index)
+            index = bigger
+            left = (index << 1) + 1
+            right = left + 1
+
+    def isEmpty(self):
+        return self.heap_size == 0
+
+
+def heapSort(nums):
+    if not nums or len(nums) < 2:
+        return
+    heap = Heap(nums)
+    # for i in range(len(nums)):
+    #     heap.heapInsert(i)
+    heap.heap_size = len(nums)
+    for i in range(len(nums) - 1, -1, -1):
+        heap.heapify(i, len(nums))
+    t = heap.heap_size
+    while t > 0:
+        Heap.swap(heap.heap, 0, t - 1)
+        t -= 1
+        heap.heapify(0, t)
+    return nums
+
+
 def Test():
     test_time = 20
     for i in range(test_time):
@@ -208,9 +295,10 @@ def Test():
 
 
 if __name__ == "__main__":
-    Test()
+    # Test()
     nums = [35, 38, 46, 43, 52, 39, 54, 56, 56, 59, 68, 75, 84, 91, 99, 35, 38, 46, 43, 52, 39, 54, 56, 56, 59, 68, 75,
             84, 91, 99]
-    easyQuickSort(nums)
+    # easyQuickSort(nums)
     # nums = countingSort(nums, 100)
+    radixSort(nums)
     print(nums)

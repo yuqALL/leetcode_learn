@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f6c1648-2007-492f-8fce-525b10029bbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../alg_problem/c++/learn" beforeDir="false" afterPath="$PROJECT_DIR$/../alg_problem/c++/learn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../八皇后.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../八皇后.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_class/BinarySearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_class/BinarySearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_class/Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_class/Sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic_class/exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_class/exercise.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_class/Sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
+            <state relative-caret-position="4818">
+              <caret line="220" column="23" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="23" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -57,19 +58,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="7018">
               <caret line="320" selection-start-line="320" selection-end-line="320" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basic_class/exercise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="684">
+              <caret line="308" column="33" lean-forward="true" selection-start-line="308" selection-start-column="33" selection-end-line="308" selection-end-column="33" />
               <folding>
-                <marker date="1581769837361" expanded="true" signature="2805:3066" ph="..." />
+                <marker date="1582308303681" expanded="true" signature="4326:4587" ph="..." />
               </folding>
             </state>
           </provider>
@@ -78,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="550">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -112,17 +113,17 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/basic/trie_tree.py" />
         <option value="$PROJECT_DIR$/basic/SAM.py" />
-        <option value="$PROJECT_DIR$/basic_class/exercise.py" />
         <option value="$PROJECT_DIR$/basic/utils.py" />
         <option value="$PROJECT_DIR$/basic_class/Sort.py" />
+        <option value="$PROJECT_DIR$/basic_class/exercise.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1444" />
-    <option name="y" value="76" />
-    <option name="width" value="1632" />
-    <option name="height" value="1707" />
+    <option name="x" value="1908" />
+    <option name="width" value="1941" />
+    <option name="height" value="2124" />
   </component>
   <component name="ProjectId" id="1WNZsrsSQO2R8zb6Rjz5siftUwn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -131,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,6 +153,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Sort">
+  <component name="RunManager" selected="Python.exercise">
     <configuration name="Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="niuke" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,8 +288,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Sort" />
         <item itemvalue="Python.exercise" />
+        <item itemvalue="Python.Sort" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.kmp" />
         <item itemvalue="Python.p6" />
@@ -310,22 +311,24 @@
       <workItem from="1579778722454" duration="9599000" />
       <workItem from="1580469443542" duration="64000" />
       <workItem from="1581758706328" duration="17981000" />
+      <workItem from="1582178669839" duration="15571000" />
+      <workItem from="1582558575756" duration="34000" />
+      <workItem from="1582558648602" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34515000" />
+    <option name="totallyTimeSpent" value="50161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="963" y="51" width="1088" height="1138" extended-state="0" />
-    <editor active="true" />
+    <frame x="1272" y="0" width="1294" height="1416" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22427185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19660194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44930416" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44859812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45560747" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,7 +360,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/basic_class/exercise.py</url>
-          <line>140</line>
+          <line>189</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -365,14 +368,24 @@
           <line>143</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/basic_class/exercise.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/basic_class/Sort.py</url>
+          <line>227</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/niuke$kmp.coverage" NAME="kmp Coverage Results" MODIFIED="1579377881013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/niuke$p6.coverage" NAME="p6 Coverage Results" MODIFIED="1578994934001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/median_class/five" />
-    <SUITE FILE_PATH="coverage/niuke$exercise.coverage" NAME="exercise Coverage Results" MODIFIED="1581769837442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_class" />
-    <SUITE FILE_PATH="coverage/niuke$Sort.coverage" NAME="Sort Coverage Results" MODIFIED="1581781404380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_class" />
+    <SUITE FILE_PATH="coverage/niuke$Sort.coverage" NAME="Sort Coverage Results" MODIFIED="1582191803548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_class" />
+    <SUITE FILE_PATH="coverage/niuke$exercise.coverage" NAME="exercise Coverage Results" MODIFIED="1582200398030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_class" />
     <SUITE FILE_PATH="coverage/niuke$test.coverage" NAME="test Coverage Results" MODIFIED="1579672167493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -380,6 +393,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="915" lean-forward="true" selection-start-line="915" selection-end-line="915" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -397,44 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="915" lean-forward="true" selection-start-line="915" selection-end-line="915" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_class/exercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-          <folding>
-            <marker date="1581769837361" expanded="true" signature="2805:3066" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/SAM.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -444,10 +433,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic_class/Sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
+        <state relative-caret-position="4818">
+          <caret line="220" column="23" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="23" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7018">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_class/exercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="308" column="33" lean-forward="true" selection-start-line="308" selection-start-column="33" selection-end-line="308" selection-end-column="33" />
+          <folding>
+            <marker date="1582308303681" expanded="true" signature="4326:4587" ph="..." />
           </folding>
         </state>
       </provider>
